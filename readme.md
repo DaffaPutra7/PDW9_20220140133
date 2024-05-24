@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Website ini berisikan form penjualan peralatan gaming yang berisikan Nama Pembeli, Equipment, Jumlah Equipment dan Garansi.</p>
+<p align="left">Website ini berisikan form penjualan peralatan gaming yang berisikan Nama Pembeli, Equipment, Jumlah Equipment, Tambahkan Garansi dan Button Submit.</p>
 
 ###
 
