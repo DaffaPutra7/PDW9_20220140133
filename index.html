@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan Peralatan Gaming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulir Pembelian Peralatan Gaming</h1>
+        <form id="gamingForm">
+            <label for="productName">Nama Pembeli:</label>
+            <input type="text" id="productName" name="productName" required>
+
+            <label for="category">Equipment:</label>
+            <select id="category" name="category">
+                <option value="Keyboard">Keyboard</option>
+                <option value="Mouse">Mouse</option>
+                <option value="Headset">Headset</option>
+                <option value="Monitor">Monitor</option>
+                <option value="Controller">Controller</option>
+            </select>
+
+            <label for="quantity">Jumlah Equipment:</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <label>
+                <input type="checkbox" id="warranty" name="warranty">
+                Tambahkan Garansi
+            </label>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
